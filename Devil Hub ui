@@ -4,7 +4,7 @@ for i,v in pairs(game.CoreGui:GetChildren()) do
         v:Remove()
     end
 end
-_G.ToggleUI = "LeftControl"
+_G.ToggleUI = "RightControl"
 local DEVIL_UI_Library_Mobile = {}
 
 function DEVIL_UI_Library_Mobile:CreateWindow(GuiName, GameName)
